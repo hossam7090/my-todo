@@ -184,9 +184,3 @@
   }
 
   
-  .custom-textarea {
-    width: 100%; /* Set width to 100% */
-    max-width: 100%; /* Set max-width to 100% */
-    min-width: 100%; /* Set min-width to 100% */
-    /* Add any additional styling here */
-}
