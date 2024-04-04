@@ -93,11 +93,15 @@
     <h2>Todo List</h2>
     <input type="text" [(ngModel)]="description" placeholder="Add new todo description">
     <input type="text" [(ngModel)]="title" placeholder="Add new todo name">
+    <input type="date" [(ngModel)]="date" >
     <button class="add-button" (click)="addTodo()">Add</button>
     <ul class="todo-list">
       <li class="todo-item" *ngFor="let todo of todos; let i = index">
         <span>{{ todo.title  }}</span>
         <span>{{ todo.description  }}</span>
+        <span>{{ todo.date  }}</span>
+        <input type="checkbox" value={{todo.status}} />
+      
         <button class="delete-button" (click)="deleteTodo(i)">Delete</button>
       </li>
     </ul>
