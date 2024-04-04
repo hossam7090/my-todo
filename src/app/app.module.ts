@@ -1,16 +1,21 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms'; // Import FormsModule
+import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
+import { TodoListComponent } from './todo-list/todo-list.component';
+import { TodoItemComponent } from './todo-item/todo-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TodoListComponent,
+    TodoItemComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule, // Add FormsModule here
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

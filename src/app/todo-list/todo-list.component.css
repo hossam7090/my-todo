@@ -1,0 +1,45 @@
+/* todo-list.component.css */
+
+/* Style the container */
+.todo-list-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the list */
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the individual items */
+  .todo-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Style the add todo input */
+  .add-todo-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the add todo button */
+  .add-todo-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-todo-button:hover {
+    background-color: #45a049;
+  }
+  
